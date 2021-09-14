@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/xjh/apf/apf/dwa/devel -DCMAKE_INSTALL_PREFIX=/home/xjh/apf/apf/dwa/install -G Unix Makefiles

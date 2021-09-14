@@ -1,0 +1,12 @@
+<launch>
+
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find apf_path)/launch/apf_rviz.rviz" />
+    <node pkg="apf_path" type="main_apf" name="main_apf"  output="screen"/>  
+
+	    <param name="k_att"          type="double"         value="0.5"/>
+	    <param name="k_rep"         type="double"           value="30"/>
+	    <param name="limit_att"     type="double"               value="1000"/>
+	    <param name="limit_rep"     type="double"               value="70"/>
+	    <param name="limit_obs"      type="double"              value="5"/>
+</launch>
+
